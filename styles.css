@@ -1,0 +1,68 @@
+h1{
+    background-color:aliceblue;
+    height: 70px;
+    align-content: center;
+}
+nav{
+    background-color: blueviolet;
+    height: 50px;
+    align-content: center;
+    
+}
+div{
+    color:white;
+    border-style:groove;
+    width: 20px;
+    text-align-last: center;
+}
+
+form{
+    margin-top: 10px;
+    border-style:inset;
+}
+
+.subtitle{
+    font-size: 23px;
+}
+.numeral{
+    margin-top: 10px;
+    
+}
+.campo{
+
+    margin-top: 8px;
+    padding-left: 4px;
+    text-align: left;
+    width: 70%;
+    height: 70px;
+    
+}
+
+.preguntas{
+    margin-top: 10px;
+}
+
+.imgRelacional{
+    margin-left: 40px;
+}
+
+.nombre{
+    font-size: 20px;
+}
+.correo{
+    font-size:20px;
+}
+.campoNombre{
+    width: 300px;
+}
+.campoCorreo{
+    margin-left: 10px;
+    width: 300px;
+}
+
+.botonEnviar{
+    margin-top: 10px;
+    margin-left: 900px;
+    height: 30px;
+    font-size: 20px;
+}

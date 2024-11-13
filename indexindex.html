@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Questionario bases de datos</h1>
+    <nav class="head"><div>1</div></nav>
+        <form action="/submit" method="post" class="form">
+
+            <fieldset class="preguntas">
+
+                <label class="subtitle">Que es una base de datos relacional</label><br>
+                <textarea id="text" id="nombre" name="nombre" required class="campo"></textarea>
+            </fieldset>
+            <nav class="numeral"><div>2</div></nav>
+            <fieldset>
+                
+                <label class="subtitle">Que diferencia tiene la primera forma normal de la segunda formal normal</label><br>
+                <textarea id="text" name="nombre" required class="campo"></textarea>
+            </fieldset>
+
+            <nav class="numeral"><div>3</div></nav>
+            <fieldset>
+                
+                <label class="subtitle">La pimera forma normal busca tener datos atomicos</label><br><br>
+                <input type="radio" name="opcion" value="verdadero"> verdadero<br>
+                <input type="radio" name="opcion" value="falso"> falso
+                
+            
+            </fieldset>
+            <nav class="numeral"><div>4</div></nav>
+            <fieldset>
+                
+                <label class="subtitle">Que entidad se relaciona diretamente con Cliente</label><br><br>
+                <img src="./entidad-relacion-1024x446.jpg" class="imgRelacional"><br><br>
+                <input type="radio" name="opcion" >Producto<br>
+                <input type="radio" name="opcion">Empleado<br>
+                <input type="radio" name="opcion">Departamento<br>
+            
+            </fieldset>
+            <nav class="numeral"><div>5</div></nav>
+            <fieldset>
+                
+                <label class="subtitle">Cual es la funcion de una llave primaria (PRIMARY KEY) para una entidad</label><br><br>
+                <textarea id="text" name="nombre" required class="campo"></textarea>
+            </fieldset>
+
+            <nav class="numeral"><div>6</div></nav>
+            <fieldset>
+                <label class="subtitle">Cual el proposito de la primera forma normal (1FN)</label><br><br>
+                <input type="checkbox">Atomicidad de los datos<br>
+                <input type="checkbox">Eliminación de la redundancia de datos<br>
+                <input type="checkbox">Solo un dato en cada campo<br>
+                <input type="checkbox">Eliminar dependencia transitiva<br>
+                <input type="checkbox">Todas las anteriores
+            </fieldset>
+
+
+            <nav class="numeral"><div>7</div></nav>
+            <fieldset>
+                <label class="subtitle">En la entidad Empleado el atributo telefonos puede tener varios valores</label><br><br>
+                <input type="radio" name="opcion" value="verdadero" style="font-size: 20px">Verdadero<br>
+                <input type="radio" name="opcion" value="falso" class="opc">Falso
+            </fieldset>
+
+            
+            <nav class="numeral"><div>8</div></nav>
+            <fieldset>
+                <label class="subtitle">Cual es la diferencia entre la tercera forma normal y la segunda forma normal</label><br><br>
+                <textarea required class="campo"></textarea>
+            </fieldset>
+
+            <nav class="numeral"><div>9</div></nav>
+            <fieldset>
+                <label class="subtitle">Es una herramienta para modelar bases de datos</label><br><br>
+                <input type="radio">MER<br>
+                <input type="radio">Diagrama de clases<br> 
+                <input type="radio">Modelado de datos<br>
+            </fieldset>
+
+            <nav class="numeral"><div>10</div></nav>
+            <fieldset>
+                <label class="subtitle">Cual es el proposito de la llave foranea (FOREIGN KEY) en las bases de datos</label><br><br>
+                <textarea required class="campo"></textarea>
+            </fieldset><br>
+            <section>
+                <label class="nombre">Nombre:</label>
+                <input type="text" required class="campoNombre"><br><br>
+                <label class="correo">Correo:</label>
+                <input type="text" required class="campoCorreo"><br><br>
+                <input type="submit" required class="botonEnviar">
+            </section>
+                
+        </form>>
+    
+</body>
+</html>
